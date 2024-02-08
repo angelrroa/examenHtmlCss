@@ -1,54 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'
-            rel='stylesheet'>
-        <link rel="stylesheet" href="css/carrito.css">
-        <title>CampusShop</title>
-    </head>
-    <body>
-        <section class="sidebar">
-            <a href="#" class="brand">CampusShop</a>
-            <ul class="side-menu">
-                <li><a href="#" class="active"><i class='bx bx-list-ul icon'></i>Todos
-                        los productos</a></li>
-                <li><a href="#"><i class='bx bxs-chart icon'></i> Abrigos</a></li>
-                <li><a href="#"><i class='bx bxs-t-shirt icon'></i> Camisetas</a></li>
-                <li><a href="#"><i class='bx bx-table icon'></i>Pantalones</a></li>
-                <li><a href="#"><i class='bx bx-cart-alt icon'></i>Carrito</a></li>
-                <li class="tag">@2023 Camper</li>
-            </ul>
-        </section>
-        <main>
-            <h1>Carrito</h1>
-            <div class="cards">
-                <div class="card">
-                    <img src="storage/img/porschePanamera4.png" alt>
-                    <div class="nombre">
-                        <p>Nombre</p>
-                        <p>Pantalones</p>
-                    </div>
-                    <div class="cantidad">
-                        <p>cantidad</p>
-                        <input type="number">
-                    </div>
-                    <div class="precio">
-                        <p>Precio</p>
-                        <p>$1.000</p>
-                    </div>
-                    <div class="Subtotal">
-                        <p>Subtotal</p>
-                        <p>$2.000</p>
-                    </div>
-                    <div class="eliminar">
-                        <i class='bx bxs-trash'></i>
-                    </div>
-                </div>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/carrito.css">
+    <title>CampusShop</title>
+</head>
+
+<body>
+    <section class="sidebar">
+        <a href="#" class="brand">CampusShop</a>
+        <ul class="side-menu">
+            <li><a href="index.html" target="_self" class="active"><i class='bx bx-list-ul icon'></i>Todos
+                    los productos</a></li>
+            <li><a href="abrigos.html" target="_self"><i class='bx bxs-chart icon'></i> Abrigos</a></li>
+            <li><a href="camisetas.html" target="_self"><i class='bx bxs-t-shirt icon'></i> Camisetas</a></li>
+            <li><a href="pantalones.html" target="_self"><i class='bx bx-table icon'></i>Pantalones</a></li>
+            <li><a href="carrito.html" target="_self"><i class='bx bx-cart-alt icon'></i>Carrito</a></li>
+            <li class="tag">@2023 Camper</li>
+        </ul>
+    </section>
+    <main>
+        <h1>Carrito</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="storage/img/porschePanamera4.png" alt>
+                <div class="nombre">
+                    <p>Nombre</p>
+                    <p>Pantalones</p>
+                </div>
+                <div class="cantidad">
+                    <p>cantidad</p>
+                    <input type="number">
+                </div>
+                <div class="precio">
+                    <p>Precio</p>
+                    <p>$1.000</p>
+                </div>
+                <div class="Subtotal">
+                    <p>Subtotal</p>
+                    <p>$2.000</p>
+                </div>
+                <div class="eliminar">
+                    <i class='bx bxs-trash'></i>
+                </div>
             </div>
-            <button class="Vaciar">Vaciar Carrito</button>
+
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="storage/img/porschePanamera4.png" alt>
+                <div class="nombre">
+                    <p>Nombre</p>
+                    <p>Pantalones</p>
+                </div>
+                <div class="cantidad">
+                    <p>cantidad</p>
+                    <input type="number">
+                </div>
+                <div class="precio">
+                    <p>Precio</p>
+                    <p>$1.000</p>
+                </div>
+                <div class="Subtotal">
+                    <p>Subtotal</p>
+                    <p>$2.000</p>
+                </div>
+                <div class="eliminar">
+                    <i class='bx bxs-trash'></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="storage/img/porschePanamera4.png" alt>
+                <div class="nombre">
+                    <p>Nombre</p>
+                    <p>Pantalones</p>
+                </div>
+                <div class="cantidad">
+                    <p>cantidad</p>
+                    <input type="number">
+                </div>
+                <div class="precio">
+                    <p>Precio</p>
+                    <p>$1.000</p>
+                </div>
+                <div class="Subtotal">
+                    <p>Subtotal</p>
+                    <p>$2.000</p>
+                </div>
+                <div class="eliminar">
+                    <i class='bx bxs-trash'></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="concretar">
+            <button class="vaciar">Vaciar Carrito</button>
             <div class="total">
                 <div class="final">
                     <p>Total</p>
@@ -58,6 +110,8 @@
                     <button>Comprar Ahora</button>
                 </div>
             </div>
-        </main>
-    </body>
+        </div>
+    </main>
+</body>
+
 </html>

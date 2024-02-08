@@ -10,7 +10,7 @@
 }
 
 body {
-	background: rgb(154, 233, 165);
+	background: rgba(154, 233, 165, 0.514);
 	overflow-x: hidden;
     display: grid;
     grid-template-columns: 2fr 5fr;
@@ -42,7 +42,7 @@ section .brand{
 	align-items: center;
 	height: 64px;
 	font-weight: 700;
-	color: #1775F1;
+	color: black;
     margin-bottom: 200px;
 	transition: all .3s ease;
 	padding: 0 6px;
@@ -52,7 +52,7 @@ section .side-menu li a{
     font-size: 1.3rem;
     color: black;
 }
-section .side-menu li a:hover{
+section .side-menu li:hover{
     background: #F1F0F6;
     border-radius: 10px;
 }
@@ -70,7 +70,7 @@ main{
     background-color: white;
     border-radius: 20px;
     padding: 20px;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-right: 20px;
     height: 90vh;
     overflow-y:scroll;
