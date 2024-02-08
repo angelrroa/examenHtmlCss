@@ -52,6 +52,11 @@ section .side-menu li a{
     font-size: 1.3rem;
     color: black;
 }
+.cantidad-carrito{
+    border: green solid 1px;
+    font-size: 1rem;
+    
+}
 section .side-menu li:hover{
     background: #F1F0F6;
     border-radius: 10px;
@@ -89,6 +94,8 @@ main .cards .card{
     grid-template-columns:1fr;
     padding: 10px;
     background-image: url('../storage/img/porschePanamera4.png');
+    background-position: center;
+    background-size: 100% 100%;
 }
 main .cards .card .image{
 
@@ -116,6 +123,10 @@ button{
     background-color:rgb(96, 216, 96);
     border: none;
     padding: 5px;
+}
+button:hover{
+    background-color:rgb(113, 168, 113);
+    cursor: pointer;
 }
 main h1{
     font-size: 2rem;

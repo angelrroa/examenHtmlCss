@@ -121,6 +121,7 @@ main .concretar{
     width: 150px;
     height: 40px;
     background-color: rgb(96, 216, 96);
+    cursor: pointer;
     border: none;
 }
 .concretar .total button{
@@ -128,5 +129,21 @@ main .concretar{
     width: 150px;
     height: 40px;
     border: none;
+    cursor: pointer;
+    
 }
-
+.concretar .vaciar:hover,.concretar .comprar button:hover{
+    background-color: rgb(84, 150, 84);
+}
+.concretar .vaciar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.cantidad-carrito{
+    border: green solid 1px;
+    font-size: 1rem;
+    margin: 5px;
+    
+}
