@@ -76,47 +76,19 @@ main{
     overflow-y:scroll;
     overflow-x: hidden;
 }
-main .cards{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 20px;
-}
-main .cards .card{
-    box-shadow: 4px 4px 16px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns:1fr;
-    padding: 10px;
-    background-image: url('../storage/img/porschePanamera4.png');
-}
-main .cards .card .image{
 
-    margin-top: 270px;
-}
-
-main .cards .card .image .valor{
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
-}
-main .cards .card .image .valor .precio{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 5px;
-    gap:50px;
-    background-color: white;
-    padding: 5px;
-}
-button{
-    border-radius: 5px;
-    background-color:rgb(96, 216, 96);
-    border: none;
-    padding: 5px;
-}
 main h1{
     font-size: 2rem;
 }
+main .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main .cards .card{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+} 
+main .cards .card img{
+ width: 100px;
+} 
